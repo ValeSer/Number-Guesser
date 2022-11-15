@@ -7,3 +7,13 @@ let currentRoundNumber = 1;
 const generateTarget = () => {
     return Math.floor(Math.random() * 9);
   }
+
+console.log(generateTarget(6));
+console.log(generateTarget(6));
+console.log(generateTarget(6));
+console.log(generateTarget(6));
+console.log(generateTarget(9));
+console.log(generateTarget(9));
+console.log(generateTarget(9));
+console.log(generateTarget(9));
+
