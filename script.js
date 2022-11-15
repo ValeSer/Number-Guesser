@@ -12,3 +12,10 @@ const generateTarget = () => {
 console.log(generateTarget(9));
 console.log(generateTarget(9));
 
+const compareGuesses = (userGuess, computerGuess, targetNum) => {
+    if (Math.abs(userGuess - targetNum) <= Math.abs(computerGuess - targetNum)) {
+      return true;
+    } else {
+        return false;
+      }
+  }
