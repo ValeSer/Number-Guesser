@@ -14,3 +14,8 @@ console.log(generateTarget(9));
 
 const compareGuesses = (userGuess, computerGuess, targetNum) =>
 Math.abs(userGuess - targetNum) <= Math.abs(computerGuess - targetNum)
+
+console.log(compareGuesses(2,3,4));
+console.log(compareGuesses(2,2,4));
+console.log(compareGuesses(5,3,4));
+console.log(compareGuesses(4,3,4));
