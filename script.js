@@ -22,11 +22,12 @@ console.log(compareGuesses(4,3,4));
 
 const updateScore = winner => {
     if (winner === 'human') {
-       return humanScore += 1;
+        humanScore += 1;
     } else if (winner === 'computer') {
-      return computerScore += 1;
+       computerScore += 1;
     }
   }
+  //I've cancelled the return as it does not need to return any value as the assignment says'
   console.log(updateScore('human'));
   console.log(updateScore('computer'));
   console.log(updateScore('computer'));
