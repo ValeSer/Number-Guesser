@@ -19,3 +19,13 @@ console.log(compareGuesses(2,3,4));
 console.log(compareGuesses(2,2,4));
 console.log(compareGuesses(5,3,4));
 console.log(compareGuesses(4,3,4));
+
+const updateScore = winner => {
+    let humanScore = 0
+    let computerScore = 0
+    if (winner === 'human') {
+      humanScore++;
+    } else if (winner === 'computer') {
+      computerScore++;
+    }
+  }
