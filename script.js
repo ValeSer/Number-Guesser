@@ -24,7 +24,7 @@ const updateScore = winner => {
     let humanScore = 0
     let computerScore = 0
     if (winner === 'human') {
-      humanScore++;
+      return humanScore++;
     } else if (winner === 'computer') {
       computerScore++;
     }
