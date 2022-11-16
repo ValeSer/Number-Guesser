@@ -29,4 +29,8 @@ const updateScore = winner => {
   }
   //I've cancelled the return as it does not need to return any value as the assignment says'
   
-  const advanceRound = () => currentRoundNumber += 1;
+const advanceRound = () => currentRoundNumber += 1;
+
+console.log(advanceRound());
+console.log(advanceRound());
+console.log(advanceRound());
