@@ -10,8 +10,13 @@ const generateTarget = () => {
 const getAbsoluteDistance = (guess, target) =>
   Math.abs(target - guess);
 
-const compareGuesses = (userGuess, computerGuess, targetNum) =>
+const compareGuesses = (userGuess, computerGuess, targetNum) => {
+  if ((userGuess < 0) || (userGuess > 9)) {
+    alert("Insert a number between 0 and 9,please");
+  }
   getAbsoluteDistance(userGuess,targetNum) <= getAbsoluteDistance(computerGuess,targetNum);
+}
+  
   
 
 
