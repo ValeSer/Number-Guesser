@@ -28,6 +28,5 @@ const updateScore = winner => {
     }
   }
   //I've cancelled the return as it does not need to return any value as the assignment says'
-  console.log(updateScore('human'));
-  console.log(updateScore('computer'));
-  console.log(updateScore('computer'));
+  
+  const advanceRound = () => currentRoundNumber += 1;
