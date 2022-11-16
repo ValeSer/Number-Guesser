@@ -29,3 +29,5 @@ const updateScore = winner => {
       computerScore++;
     }
   }
+
+  console.log(updateScore('human'));
